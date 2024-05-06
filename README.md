@@ -30,10 +30,10 @@ docker-compose up -d
 
 ## Выполнение миграций базы данных
 
-После запуска контейнеров выполните миграции:
+Войдите в контейнер с Python, используя имя вашего проекта из переменной окружения `PROJECT_NAME`:
 1. Войдите в контейнер с Python:
    ```
-   docker exec -it ${PROJECT_NAME}__service bash
+   docker exec -it question_service bash
    ```
 2. Запустите миграции:
    ```
