@@ -1,0 +1,12 @@
+# Test your FastAPI endpoints
+
+
+POST http://127.0.0.1:8000/api/v1/question
+Content-Type: application/json
+Accept: application/json
+
+{
+    "questions_num": 5
+}
+
+###
